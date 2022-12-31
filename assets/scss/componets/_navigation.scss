@@ -1,0 +1,34 @@
+/* ============================== Menu Part Start =================================== */
+#main_menu{
+    padding: 50px 0 0 0;
+    .menu_part{
+        ul{
+            li{
+                margin-left: 40px;
+                &:first-child{
+                    margin-left: 0;
+                }
+                a{
+                    @include text(16px,400,$opacity);
+                    line-height: 19px;
+                    text-transform: uppercase;
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+                    font-family: 'future-bk-bt';
+                    @include transition();
+                    &:hover{
+                        color: $hover;
+                    }
+                    &.active{
+                        color: $hover;
+                    }
+                }
+            }
+        }
+    }
+    .mobile_menu_button{
+        display: none;
+    }
+}
+/* ============================== Menu Part End =================================== */
+

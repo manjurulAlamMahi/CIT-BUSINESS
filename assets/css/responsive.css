@@ -1,0 +1,1283 @@
+:root{
+    --hover: #252C6D;
+    --opacity: #4978BC;
+    --text: #414042;
+    --title: #F04E4C;
+}
+@media(min-width:1400px) {}
+
+@media(min-width:1200px) and (max-width:1399.98px) {
+    #footer .footer_content.footer_newsletter .mobile_device_contact {
+        display: none;
+    }
+    #banner .banner_container .banner_img {
+        transform: translateX(-105px);
+    }
+    #award .award_contents .awards_img .ovrly {
+        left: 45px;
+    }
+}
+
+@media(min-width:1101px) and (max-width:1199.98px) {
+    /* Banner */
+    #banner .banner_container .banner_text h1 {
+        font-size: 40px;
+    }
+    #banner .banner_container .banner_text p {
+        font-size: 16px;
+    }
+    #banner .banner_container .banner_img img {
+        width: 570px;
+    }
+    #banner .banner_container .banner_img {
+        transform: translateX(-100px);
+    }
+    #banner .banner_container .shape {
+        right: -35px;
+    }
+    #banner .banner_container .banner_text {
+        padding-bottom: 15px;
+    }
+    /* About  */
+    #about_us .about_us_img {
+        transform: translateX(0);
+    }
+    #about_us .about_us_img img{
+        width: 100%;
+    }
+    #about_us .about_us_img .ovrly {
+        bottom: 35px;
+        left: 75px;
+    }
+    #about_us .about_us_text p {
+        font-size: 16px;
+    }
+    /* Conserns */
+    #conserns .conserns_container .conserns_text h2 {
+        font-size: 50px;
+    }
+    #conserns .conserns_container .shape {
+        display: none;
+    }   
+    #conserns .conserns_container .conserns_text p {
+        font-size: 17px;
+        padding-right: 0px;
+    }   
+    #conserns .conserns_container .conserns_sponsers ul li {
+        margin-left: 20px;
+        margin-bottom: 25px;
+        height: 100px;
+        width: 29.06%;
+    }
+    #footer .footer_content.footer_newsletter .contact{
+        display: none;
+    }
+    #footer .footer_content.footer_newsletter .mobile_device_contact{
+        padding-top: 10px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1100.98px) {
+    /* Banner */
+    #banner {
+        padding-top: 60px;
+    }
+    #banner .banner_container .banner_text h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #banner .banner_container .banner_text p {
+        font-size: 16px;
+    }
+    #banner .banner_container .banner_img img {
+        width: 570px;
+    }
+    #banner .banner_container .banner_img {
+        transform: translateX(-100px);
+    }
+    #banner .banner_container .shape {
+        right: -35px;
+    }
+    #banner .banner_container .banner_text {
+        padding-bottom: 15px;
+    }
+    /* About  */
+    #about_us .about_us_img {
+        transform: translateX(0);
+    }
+    #about_us .about_us_img img{
+        width: 100%;
+    }
+    #about_us .about_us_img .ovrly {
+        bottom: 35px;
+        left: 75px;
+    }
+    #about_us .about_us_text p {
+        font-size: 16px;
+    }
+    /* Conserns */
+    #conserns {
+        padding: 80px 0 0px 0;
+    }
+    #conserns .conserns_container .conserns_text h2 {
+        font-size: 50px;
+    }
+    #conserns .conserns_container .shape {
+        display: none;
+    }   
+    #conserns .conserns_container .conserns_text p {
+        font-size: 17px;
+        padding-right: 0px;
+    }   
+    #conserns .conserns_container .conserns_sponsers ul li {
+        margin-left: 20px;
+        margin-bottom: 25px;
+        height: 100px;
+        width: 29.06%;
+    }
+    /* ##################################### President CSS Start ##################################### */
+    #president{
+        padding: 50px 0 90px 0;
+    }
+    #president .president_slider .president_item {
+        transform: translateX(0);
+    }
+    #president .president_slider .president_item .president_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #president .president_slider .president_item .president_img img {
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+    #president .president_slider .president_item .drag_ovrly {
+        display: none;
+    }
+    #president .president_slider .president_item .president_details {
+        padding: 0 20px;
+        text-align: center;
+    }
+    #president .president_slider .president_item .president_details p {
+        font-size: 16px;
+        padding-right: 0;
+        padding-top: 100px;
+    }
+    #president .president_slider .president_item .president_details .coma {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #president .president_slider .president_item .president_details h4 {
+        font-size: 20px;
+    }
+    #president .president_slider .president_item .president_details h6 {
+        font-size: 16px;
+    }
+    #president .president_slider .slick-dots{
+        justify-content: center;
+        display: flex;
+        padding-top: 30px;
+    }
+    #president .president_slider .slick-dots li{
+        margin: 0 5px;
+    }
+    #president .president_slider .slick-dots li.slick-active button{
+        opacity: 100%;
+    }
+    #president .president_slider .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: none;
+        background: var(--title);
+        opacity: 0.3;
+    }
+    /* ##################################### President CSS End ##################################### */
+
+    /* ##################################### Footer CSS End ##################################### */
+    #footer {
+        padding: 80px 0;
+        background: #F4F4F4;
+    }
+    #footer .footer_content{
+        padding-bottom: 20px;
+    }
+    #footer .footer_content.footer_left ul{
+        padding-bottom: 30px;
+    }
+    #footer .footer_content h4 {
+        padding-bottom: 20px;
+    }
+    #footer .footer_content.footer_newsletter .input-group,
+    #footer .footer_content.footer_newsletter .input-checkbox{
+        display: none;
+    }
+    #footer .footer_content.footer_newsletter .mobile_device_inputs_group {
+        display: block;
+    }
+    #footer .footer_content.footer_newsletter .contact {
+        display: none;
+    }
+    #footer .footer_content.footer_newsletter .mobile_device_contact {
+        display: block;
+    }
+    #footer .footer_content.footer_newsletter ul li {
+        margin-right: 10px;
+    }
+    #footer .footer_content.footer_newsletter ul {
+        padding-top: 20px;
+    }
+    #footer{
+        padding: 80px 0 20px 0;
+    }
+    #footer .copy_right p {
+        font-size: 12px;
+    }
+    /* ##################################### Footer CSS End ##################################### */
+}
+
+@media(min-width:768px) and (max-width:991.98px) {
+    /* ##################################### Common Css  #####################################*/
+    .backtotop {
+        right: 25px;
+    }
+    .common_head {
+        padding-bottom: 40px;
+    }
+    .common_head h2 {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    .common_head p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .read_more {
+        font-size: 20px;
+    }
+
+    /* ##################################### Navigation CSS Start ##################################### */
+    #main_menu{
+        padding: 20px;
+    }
+    #main_menu .logo img{
+        width: 80%;
+    }
+    .fix_nav{
+        padding: 20px;
+    }
+    .fix_nav .logo img{
+        width: 80%;
+    }
+    #main_menu .mobile_menu_button {
+        display: block;
+        background: transparent;
+        color: var(--hover);
+        border: none;
+        font-size: 25px;
+    }
+    #main_menu .mobile_menu_button:focus {
+        color: var(--hover);
+        box-shadow: none;
+        border: 1px solid var(--hover);
+    }
+    #main_menu .nav_offcanvas{
+        background: var(--hover);
+        padding-top: 25px;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_header{
+        justify-content: end;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_header button{
+        background: none;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_header button i{
+        color: var(--opacity);
+        font-size: 25px;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_header button:focus{
+        box-shadow: none;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_body{
+        padding-top: 50px;
+        text-align: center;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_body ul li{
+        margin: 5px 0;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_body ul li a{
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--opacity);
+        position: relative;
+        font-family: 'future-bk-bt';
+    }
+    #main_menu .nav_offcanvas .mobile_menu_body ul li a:hover {
+        color: #fff;
+    }
+    /* ##################################### Navigation CSS End ##################################### */
+
+    /* ##################################### Banner CSS Start ##################################### */
+    #banner .banner_container .shape {
+        display: none;
+    }
+    #banner .banner_container .banner_img .ovrlyshape {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #banner .banner_container .banner_img .ovrlyshape img {
+        position: absolute;
+        top: -10px;
+        right: -40px;
+        width: 33%;
+    }
+    #banner {
+        padding-top: 30px;
+    }
+    #banner .banner_container .banner_img img {
+        width: 100%;
+    }
+    #banner .banner_container .banner_img {
+        transform: translateX(-10px);
+    }
+    #banner .banner_container .banner_img .ovrly {
+        top: 120px;
+        right: 150px;
+        width: 100px;
+        height: 100px;
+        line-height: 95px;
+    }
+    #banner .banner_container .banner_img .ovrly::after{
+        width: 110px;
+        height: 110px;
+    }
+    #banner .banner_container .banner_img .ovrly a {
+        color: #fff;
+        font-size: 40px;
+    }
+    #banner .banner_text{
+        padding-top: 50px;
+    }
+    #banner .banner_container .banner_text h1 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    #banner .banner_container .banner_text p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-bottom: 30px;
+    }
+    /* ##################################### Banner CSS End ##################################### */
+
+    /* ##################################### ABOUT CSS Start ##################################### */
+    #about_us .about_us_img {
+        transform: translateX(0);
+    }
+    #about_us .about_us_img img{
+        width: 100%;
+    }
+    #about_us .col-lg-6{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #about_us .about_us_img .ovrly {
+        bottom: 30px;
+        left: 140px;
+    }
+    #about_us .about_us_img .ovrly img {
+        width: 100%;
+    }
+    #about_us .about_us_text{
+        padding: 40px 20px 50px 20px;
+    }
+    #about_us .about_us_text p {
+        font-size: 18px;
+    }
+    /* ##################################### ABOUT CSS End ##################################### */
+
+    /* ##################################### Conserns CSS Start ##################################### */
+    #conserns .conserns_container .conserns_text h2 span {
+        display: inline;
+        padding-left: 5px;
+    }
+    #conserns{
+        padding: 50px 0;
+    }
+    #conserns .conserns_container .conserns_text {
+        margin: 0 0;
+    }
+    #conserns .conserns_container .conserns_text p {
+        font-size: 14px;
+        padding-right: 0;
+        padding-bottom: 30pxpx;
+        line-height: 24px;
+    }
+    #conserns .conserns_container .shape {
+        display: none;
+    }
+    #conserns .conserns_container .conserns_text{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    #conserns .conserns_container .conserns_text h2 {
+        font-size: 30px;
+        line-height: 41px;
+        padding-bottom: 20px;
+    }
+    #conserns .conserns_container .conserns_sponsers ul li {
+        margin-left: 15px;
+        margin-bottom: 15px;
+        height: 60px;
+        width: 28.3%;
+        line-height: 55px;
+    }
+    /* ##################################### Conserns CSS End ##################################### */
+
+    /* ##################################### President CSS Start ##################################### */
+    #president{
+        padding: 50px 0 90px 0;
+    }
+    #president .president_slider .president_item {
+        transform: translateX(0);
+    }
+    #president .president_slider .president_item .president_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #president .president_slider .president_item .president_img img{
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+    }
+    #president .president_slider .president_item .drag_ovrly {
+        display: none;
+    }
+    #president .president_slider .president_item .president_details {
+        padding: 0 20px;
+        text-align: center;
+    }
+    #president .president_slider .president_item .president_details p {
+        font-size: 16px;
+        padding-right: 0;
+        padding-top: 100px;
+    }
+    #president .president_slider .president_item .president_details .coma {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #president .president_slider .president_item .president_details h4 {
+        font-size: 20px;
+    }
+    #president .president_slider .president_item .president_details h6 {
+        font-size: 16px;
+    }
+    #president .president_slider .slick-dots{
+        justify-content: center;
+        display: flex;
+        padding-top: 30px;
+    }
+    #president .president_slider .slick-dots li{
+        margin: 0 5px;
+    }
+    #president .president_slider .slick-dots li.slick-active button{
+        opacity: 100%;
+    }
+    #president .president_slider .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: none;
+        background: var(--title);
+        opacity: 0.3;
+    }
+    /* ##################################### President CSS End ##################################### */
+
+    /* ##################################### Fun_fact CSS Start ##################################### */
+    #fun_fact .fact_content {
+        margin-bottom: 40px;
+    }
+    #fun_fact {
+        padding: 87px 38px;
+    }
+    /* ##################################### Fun_fact CSS End ##################################### */
+
+    /* ##################################### Award CSS Start ##################################### */
+    #award {
+        padding: 50px 0;
+    }
+    #award .award_contents{
+        padding-bottom: 70px;
+    }
+    #award .award_contents .awards_details {
+        text-align: center;
+    }
+    #award .award_contents .awards_details h4 span {
+        display: inline;
+    }
+    #award .award_footer {
+        padding-top: 0;
+    }
+    /* ##################################### Award CSS End ##################################### */
+
+    /* ##################################### News CSS Start ##################################### */
+    #news {
+        padding: 70px 0 30px 0;
+    }
+    #news .news_titles h6 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    #news .news_contents{
+        padding-bottom: 40px;
+    }
+    /* ##################################### News CSS End ##################################### */
+
+    /* ##################################### Footer CSS End ##################################### */
+    #footer {
+        padding: 80px 0;
+        background: #F4F4F4;
+    }
+    #footer .footer_content{
+        padding-bottom: 20px;
+    }
+    #footer .footer_content.footer_left ul{
+        padding-bottom: 30px;
+    }
+    #footer .footer_content h4 {
+        padding-bottom: 20px;
+    }
+    #footer .footer_content.footer_newsletter .input-group,
+    #footer .footer_content.footer_newsletter .input-checkbox{
+        display: none;
+    }
+    #footer .footer_content.footer_newsletter .mobile_device_inputs_group {
+        display: block;
+    }
+    #footer .footer_content.footer_newsletter .contact {
+        display: none;
+    }
+    #footer .footer_content.footer_newsletter .mobile_device_contact {
+        display: block;
+    }
+    #footer .footer_content.footer_newsletter ul li {
+        margin-right: 10px;
+    }
+    #footer .footer_content.footer_newsletter ul {
+        padding-top: 20px;
+    }
+    #footer{
+        padding: 80px 0 20px 0;
+    }
+    #footer .copy_right p {
+        font-size: 12px;
+    }
+    /* ##################################### Footer CSS End ##################################### */
+}
+
+@media(min-width:576px) and (max-width:767.98px) {
+    /* ##################################### Common Css  #####################################*/
+    .backtotop {
+        right: 5px;
+    }
+    .common_head {
+        padding-bottom: 40px;
+    }
+    .common_head h2 {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    .common_head p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .read_more {
+        font-size: 20px;
+    }
+
+    /* ##################################### Navigation CSS Start ##################################### */
+    #main_menu{
+        padding: 20px;
+    }
+    #main_menu .logo img{
+        width: 80%;
+    }
+    .fix_nav{
+        padding: 20px;
+    }
+    .fix_nav .logo img{
+        width: 80%;
+    }
+    #main_menu .mobile_menu_button {
+        display: block;
+        background: transparent;
+        color: var(--hover);
+        border: none;
+        font-size: 25px;
+    }
+    #main_menu .mobile_menu_button:focus {
+        color: var(--hover);
+        box-shadow: none;
+        border: 1px solid var(--hover);
+    }
+    #main_menu .nav_offcanvas{
+        background: var(--hover);
+        padding-top: 25px;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_header{
+        justify-content: end;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_header button{
+        background: none;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_header button i{
+        color: var(--opacity);
+        font-size: 25px;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_header button:focus{
+        box-shadow: none;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_body{
+        padding-top: 50px;
+        text-align: center;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_body ul li{
+        margin: 5px 0;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_body ul li a{
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--opacity);
+        position: relative;
+        font-family: 'future-bk-bt';
+    }
+    #main_menu .nav_offcanvas .mobile_menu_body ul li a:hover {
+        color: #fff;
+    }
+    /* ##################################### Navigation CSS End ##################################### */
+
+    /* ##################################### Banner CSS Start ##################################### */
+    #banner .banner_container .shape {
+        display: none;
+    }
+    #banner .banner_container .banner_img .ovrlyshape {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #banner .banner_container .banner_img .ovrlyshape img {
+        position: absolute;
+        top: -10px;
+        right: -40px;
+        width: 33%;
+    }
+    #banner {
+        padding-top: 30px;
+    }
+    #banner .banner_container .banner_img img {
+        width: 100%;
+    }
+    #banner .banner_container .banner_img {
+        transform: translateX(-10px);
+    }
+    #banner .banner_container .banner_img .ovrly {
+        top: 120px;
+        right: 125px;
+        width: 60px;
+        height: 60px;
+        line-height: 55px;
+    }
+    #banner .banner_container .banner_img .ovrly::after{
+        width: 70px;
+        height: 70px;
+    }
+    #banner .banner_container .banner_img .ovrly a {
+        color: #fff;
+        font-size: 25px;
+    }
+    #banner .banner_text{
+        padding-top: 50px;
+    }
+    #banner .banner_container .banner_text h1 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    #banner .banner_container .banner_text p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-bottom: 30px;
+    }
+    /* ##################################### Banner CSS End ##################################### */
+
+    /* ##################################### ABOUT CSS Start ##################################### */
+    #about_us .about_us_img {
+        transform: translateX(0);
+    }
+    #about_us .about_us_img img{
+        width: 100%;
+    }
+    #about_us .col-lg-6{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #about_us .about_us_img .ovrly {
+        bottom: 30px;
+        left: 105px;
+    }
+    #about_us .about_us_img .ovrly img {
+        width: 80%;
+    }
+    #about_us .about_us_text{
+        padding: 40px 20px 50px 20px;
+    }
+    #about_us .about_us_text p {
+        font-size: 18px;
+    }
+    /* ##################################### ABOUT CSS End ##################################### */
+
+    /* ##################################### Conserns CSS Start ##################################### */
+    #conserns{
+        padding: 50px 0;
+    }
+    #conserns .conserns_container .conserns_text {
+        margin: 0 0;
+    }
+    #conserns .conserns_container .conserns_text p {
+        font-size: 14px;
+        padding-right: 0;
+        padding-bottom: 30pxpx;
+        line-height: 24px;
+    }
+    #conserns .conserns_container .shape {
+        display: none;
+    }
+    #conserns .conserns_container .conserns_text{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    #conserns .conserns_container .conserns_text h2 {
+        font-size: 30px;
+        line-height: 41px;
+        padding-bottom: 20px;
+    }
+    #conserns .conserns_container .conserns_sponsers ul li {
+        margin-left: 15px;
+        margin-bottom: 15px;
+        height: 60px;
+        width: 28.3%;
+        line-height: 55px;
+    }
+    #conserns .conserns_container .conserns_sponsers ul li a img {
+        width: 50%;
+    }
+    /* ##################################### Conserns CSS End ##################################### */
+
+    /* ##################################### President CSS Start ##################################### */
+    #president{
+        padding: 50px 0 90px 0;
+    }
+    #president .president_slider .president_item {
+        transform: translateX(0);
+    }
+    #president .president_slider .president_item .president_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #president .president_slider .president_item .president_img img{
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+    }
+    #president .president_slider .president_item .drag_ovrly {
+        display: none;
+    }
+    #president .president_slider .president_item .president_details {
+        padding: 0 20px;
+        text-align: center;
+    }
+    #president .president_slider .president_item .president_details p {
+        font-size: 16px;
+        padding-right: 0;
+        padding-top: 100px;
+    }
+    #president .president_slider .president_item .president_details .coma {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #president .president_slider .president_item .president_details h4 {
+        font-size: 20px;
+    }
+    #president .president_slider .president_item .president_details h6 {
+        font-size: 16px;
+    }
+    #president .president_slider .slick-dots{
+        justify-content: center;
+        display: flex;
+        padding-top: 30px;
+    }
+    #president .president_slider .slick-dots li{
+        margin: 0 5px;
+    }
+    #president .president_slider .slick-dots li.slick-active button{
+        opacity: 100%;
+    }
+    #president .president_slider .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: none;
+        background: var(--title);
+        opacity: 0.3;
+    }
+    /* ##################################### President CSS End ##################################### */
+
+    /* ##################################### Fun_fact CSS Start ##################################### */
+    #fun_fact .fact_content {
+        margin-bottom: 40px;
+    }
+    #fun_fact {
+        padding: 87px 38px;
+    }
+    /* ##################################### Fun_fact CSS End ##################################### */
+
+    /* ##################################### Award CSS Start ##################################### */
+    #award {
+        padding: 50px 0;
+    }
+    #award .award_contents{
+        padding-bottom: 70px;
+    }
+    #award .award_contents .awards_details {
+        text-align: center;
+    }
+    #award .award_contents .awards_details h4 span {
+        display: inline;
+    }
+    #award .award_footer {
+        padding-top: 0;
+    }
+    /* ##################################### Award CSS End ##################################### */
+
+    /* ##################################### News CSS Start ##################################### */
+    #news {
+        padding: 70px 0 30px 0;
+    }
+    #news .news_titles h6 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    #news .news_contents{
+        padding-bottom: 40px;
+    }
+    /* ##################################### News CSS End ##################################### */
+
+    /* ##################################### Footer CSS End ##################################### */
+    #footer {
+        padding: 80px 0;
+        background: #F4F4F4;
+    }
+    #footer .footer_content{
+        padding-bottom: 20px;
+    }
+    #footer .footer_content.footer_left ul{
+        padding-bottom: 30px;
+    }
+    #footer .footer_content h4 {
+        padding-bottom: 20px;
+    }
+    #footer .footer_content.footer_newsletter .input-group,
+    #footer .footer_content.footer_newsletter .input-checkbox{
+        display: none;
+    }
+    #footer .footer_content.footer_newsletter .mobile_device_inputs_group {
+        display: block;
+    }
+    #footer .footer_content.footer_newsletter .contact {
+        display: none;
+    }
+    #footer .footer_content.footer_newsletter .mobile_device_contact {
+        display: block;
+    }
+    #footer .footer_content.footer_newsletter ul li {
+        margin-right: 10px;
+    }
+    #footer .footer_content.footer_newsletter ul {
+        padding-top: 20px;
+    }
+    #footer{
+        padding: 80px 0 20px 0;
+    }
+    #footer .copy_right p {
+        font-size: 12px;
+    }
+    /* ##################################### Footer CSS End ##################################### */
+}
+
+@media(max-width:575.98px) {
+    /* ##################################### Common Css  #####################################*/
+    .backtotop {
+        right: 5px;
+    }
+    .common_head {
+        padding-bottom: 40px;
+    }
+    .common_head h2 {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+    .common_head p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .read_more {
+        font-size: 20px;
+    }
+
+    /* ##################################### Navigation CSS Start ##################################### */
+    #main_menu{
+        padding: 20px;
+    }
+    #main_menu .logo img{
+        width: 80%;
+    }
+    .fix_nav{
+        padding: 20px;
+    }
+    .fix_nav .logo img{
+        width: 80%;
+    }
+    #main_menu .mobile_menu_button {
+        display: block;
+        background: transparent;
+        color: var(--hover);
+        border: none;
+        font-size: 25px;
+    }
+    #main_menu .mobile_menu_button:focus {
+        color: var(--hover);
+        box-shadow: none;
+        border: 1px solid var(--hover);
+    }
+    #main_menu .nav_offcanvas{
+        background: var(--hover);
+        padding-top: 25px;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_header{
+        justify-content: end;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_header button{
+        background: none;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_header button i{
+        color: var(--opacity);
+        font-size: 25px;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_header button:focus{
+        box-shadow: none;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_body{
+        padding-top: 50px;
+        text-align: center;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_body ul li{
+        margin: 5px 0;
+    }
+    #main_menu .nav_offcanvas .mobile_menu_body ul li a{
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--opacity);
+        position: relative;
+        font-family: 'future-bk-bt';
+    }
+    #main_menu .nav_offcanvas .mobile_menu_body ul li a:hover {
+        color: #fff;
+    }
+    /* ##################################### Navigation CSS End ##################################### */
+
+    /* ##################################### Banner CSS Start ##################################### */
+    #banner .banner_container .shape {
+        display: none;
+    }
+    #banner .banner_container .banner_img .ovrlyshape {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    #banner .banner_container .banner_img .ovrlyshape img{
+        position: absolute;
+        top: -10px;
+        right: -22px;
+        width: 33%;
+    }
+    #banner {
+        padding-top: 30px;
+    }
+    #banner .banner_container .banner_img img {
+        width: 100%;
+    }
+    #banner .banner_container .banner_img {
+        transform: translateX(-10px);
+    }
+    #banner .banner_container .banner_img .ovrly {
+        top: 50px;
+        right: 65px;
+        width: 60px;
+        height: 60px;
+        line-height: 55px;
+    }
+    #banner .banner_container .banner_img .ovrly::after{
+        width: 70px;
+        height: 70px;
+    }
+    #banner .banner_container .banner_img .ovrly a {
+        color: #fff;
+        font-size: 25px;
+    }
+    #banner .banner_text{
+        padding-top: 50px;
+    }
+    #banner .banner_container .banner_text h1 {
+        font-size: 30px;
+        line-height: 41px;
+    }
+    #banner .banner_container .banner_text p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-bottom: 30px;
+    }
+    /* ##################################### Banner CSS End ##################################### */
+
+    /* ##################################### ABOUT CSS Start ##################################### */
+    #about_us .about_us_img {
+        transform: translateX(0);
+    }
+    #about_us .about_us_img img{
+        width: 100%;
+    }
+    #about_us .col-lg-6{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    #about_us .about_us_img .ovrly {
+        bottom: 30px;
+        left: 65px;
+    }
+    #about_us .about_us_img .ovrly img{
+        width: 50%;
+    }
+    #about_us .about_us_text{
+        padding: 40px 20px 50px 20px;
+    }
+    #about_us .about_us_text p {
+        font-size: 18px;
+    }
+    /* ##################################### ABOUT CSS End ##################################### */
+
+    /* ##################################### Conserns CSS Start ##################################### */
+    #conserns{
+        padding: 50px 0;
+    }
+    #conserns .conserns_container .conserns_text {
+        margin: 0 0;
+    }
+    #conserns .conserns_container .conserns_text p {
+        font-size: 14px;
+        padding-right: 0;
+        padding-bottom: 30pxpx;
+        line-height: 24px;
+    }
+    #conserns .conserns_container .shape {
+        display: none;
+    }
+    #conserns .conserns_container .conserns_text{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    #conserns .conserns_container .conserns_text h2 {
+        font-size: 30px;
+        line-height: 41px;
+        padding-bottom: 20px;
+    }
+    #conserns .conserns_container .conserns_sponsers ul li {
+        margin-left: 15px;
+        margin-bottom: 15px;
+        height: 60px;
+        width: 28.3%;
+        line-height: 55px;
+    }
+    #conserns .conserns_container .conserns_sponsers ul li a img{
+        width: 75%;
+    }
+    /* ##################################### Conserns CSS End ##################################### */
+
+    /* ##################################### President CSS Start ##################################### */
+    #president{
+        padding: 50px 0 90px 0;
+    }
+    #president .president_slider .president_item {
+        transform: translateX(0);
+    }
+    #president .president_slider .president_item .president_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #president .president_slider .president_item .president_img img{
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+    }
+    #president .president_slider .president_item .drag_ovrly {
+        display: none;
+    }
+    #president .president_slider .president_item .president_details {
+        padding: 0 20px;
+        text-align: center;
+    }
+    #president .president_slider .president_item .president_details p {
+        font-size: 16px;
+        padding-right: 0;
+        padding-top: 100px;
+    }
+    #president .president_slider .president_item .president_details .coma {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #president .president_slider .president_item .president_details h4 {
+        font-size: 20px;
+    }
+    #president .president_slider .president_item .president_details h6 {
+        font-size: 16px;
+    }
+    #president .president_slider .slick-dots{
+        justify-content: center;
+        display: flex;
+        padding-top: 30px;
+    }
+    #president .president_slider .slick-dots li{
+        margin: 0 5px;
+    }
+    #president .president_slider .slick-dots li.slick-active button{
+        opacity: 100%;
+    }
+    #president .president_slider .slick-dots li button{
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: none;
+        background: var(--title);
+        opacity: 0.3;
+    }
+    /* ##################################### President CSS End ##################################### */
+
+    /* ##################################### Fun_fact CSS Start ##################################### */
+    #fun_fact .fact_content {
+        margin-bottom: 40px;
+    }
+    #fun_fact {
+        padding: 87px 38px;
+    }
+    /* ##################################### Fun_fact CSS End ##################################### */
+
+    /* ##################################### Award CSS Start ##################################### */
+    #award {
+        padding: 50px 0;
+    }
+    #award .award_contents{
+        padding-bottom: 70px;
+    }
+    #award .award_contents .awards_details {
+        text-align: center;
+    }
+    #award .award_contents .awards_details h4 span {
+        display: inline;
+    }
+    #award .award_footer {
+        padding-top: 0;
+    }
+    /* ##################################### Award CSS End ##################################### */
+
+    /* ##################################### News CSS Start ##################################### */
+    #news {
+        padding: 70px 0 30px 0;
+    }
+    #news .news_titles h6 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    #news .news_contents{
+        padding-bottom: 40px;
+    }
+    /* ##################################### News CSS End ##################################### */
+
+    /* ##################################### Footer CSS End ##################################### */
+    #footer {
+        padding: 80px 0;
+        background: #F4F4F4;
+    }
+    #footer .footer_content{
+        padding-bottom: 20px;
+    }
+    #footer .footer_content.footer_left ul{
+        padding-bottom: 30px;
+    }
+    #footer .footer_content h4 {
+        padding-bottom: 20px;
+    }
+    #footer .footer_content.footer_newsletter .input-group,
+    #footer .footer_content.footer_newsletter .input-checkbox{
+        display: none;
+    }
+    #footer .footer_content.footer_newsletter .mobile_device_inputs_group {
+        display: block;
+    }
+    #footer .footer_content.footer_newsletter .contact {
+        display: none;
+    }
+    #footer .footer_content.footer_newsletter .mobile_device_contact {
+        display: block;
+    }
+    #footer .footer_content.footer_newsletter ul li {
+        margin-right: 10px;
+    }
+    #footer .footer_content.footer_newsletter ul {
+        padding-top: 20px;
+    }
+    #footer{
+        padding: 80px 0 20px 0;
+    }
+    #footer .copy_right p {
+        font-size: 12px;
+    }
+    /* ##################################### Footer CSS End ##################################### */
+}

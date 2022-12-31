@@ -1,0 +1,27 @@
+@keyframes marquee {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+@keyframes topTobottom{
+    from{
+        transform: translateY(-75px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+@keyframes play_shadow{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

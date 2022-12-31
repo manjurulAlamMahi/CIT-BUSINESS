@@ -1,0 +1,77 @@
+/* ============================== Award Part Start =================================== */
+#award{
+    padding-top: 120px;
+    .award_contents{
+        .awards_img{
+            position: relative;
+            height: 250px;
+            z-index: 1;
+            img{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%) scale(0.9);
+                @include transition();
+            }
+            .ovrly{
+                position: absolute;
+                top: 0;
+                left: 65px;
+                transform: rotate(30deg);
+                width: 0;
+                height: 0;
+                border-left: 100px solid transparent;
+                border-right: 100px solid transparent;
+                border-bottom: 225px solid #E6E7E8;
+                z-index: -1;
+                @include transition();
+            }
+            &:hover{
+                img{
+                    transform: translate(-50%,-50%) scale(1);
+                }
+                .ovrly{
+                    transform: rotate(45deg);
+                }
+            }
+        }
+        .awards_details{
+            padding-top: 75px;
+            h6{
+                @include text(18px,400,$title);
+                line-height: 25px;
+                padding-bottom: 10px;
+                font-family: 'Roboto', sans-serif;
+            }
+            h4{
+                @include text(24px,400,$opacity);
+                line-height: 34px;
+                padding-bottom: 10px;
+                font-family: 'future-bk-bt';
+                text-transform: uppercase;
+                span{
+                    display: block;
+                }
+            }
+            p{
+                @include text(18px,400,$text);
+                line-height: 25px;
+            }
+        }
+    }
+    .award_footer{
+        text-align: center;
+        padding-top: 65px;
+        a{
+            padding: 20px 40px;
+            background: $opacity;
+            @include text(25px,400,#fff);
+            font-family: 'future-hv-bt';
+            @include transition();
+            &:hover{
+                background: $hover;
+            }
+        }
+    }
+}
+/* ============================== Award Part End  =================================== */

@@ -1,0 +1,27 @@
+/* ============================== About Us Part Start =================================== */
+#about_us{
+    background: #252C6D;
+    .about_us_text{
+        padding-left: 50px;
+        p{
+            @include text(26px,400,#fff);
+            line-height: 42px;
+            font-family: 'future-bk-bt';
+            span{
+                padding-top: 35px;
+                font-family: 'future-hv-bt';
+                display: block;
+            }
+        }
+    }
+    .about_us_img{
+        transform: translateX(-115px);
+        position: relative;
+        .ovrly{
+            position: absolute;
+            bottom: 115px;
+            left: 155px;
+        }
+    }
+}
+/* ============================== About Us Part End  =================================== */

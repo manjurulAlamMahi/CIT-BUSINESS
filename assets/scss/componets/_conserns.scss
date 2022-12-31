@@ -1,0 +1,63 @@
+/* ============================== conserns Part Start =================================== */
+#conserns{
+    padding: 115px 0 110px 0;
+    .conserns_container{
+        position: relative;
+        .conserns_text{
+            margin: 0 65px;
+            h2{
+                @include text(60px,400,$title);
+                line-height: 72px;
+                font-family: 'future-hv-bt';
+                padding-bottom: 40px;
+                span{
+                    display: block;
+                }
+            }
+            p{
+                @include text(20px,400,$text);
+                line-height: 30px;
+                padding-right: 40px;
+                padding-bottom: 40px;
+            }
+        }
+        .conserns_sponsers{
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    margin-left: 24px;
+                    margin-bottom: 30px;
+                    height: 100px;
+                    width: 29.035%;
+                    border: 1px solid #E6E7E8;
+                    border-radius: 20px;
+                    text-align: center;
+                    line-height: 92px;
+                    @include transition();
+                    a{
+                        img{
+                            @include transition();
+                            transform: scale(0.9);
+                        }
+                    }
+                    &:hover{
+                        a{
+                            img{
+                                transform: scale(1);
+                            }
+                        }
+                        box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.04);
+                    }
+                }
+            }
+        }
+        .shape{
+            position: absolute;
+            top: -70px;
+            left: -185px;
+        }
+    }
+    
+}
+/* ============================== conserns Part End  =================================== */

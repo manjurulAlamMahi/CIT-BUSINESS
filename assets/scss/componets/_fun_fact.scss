@@ -1,0 +1,31 @@
+/* ============================== Fun Fact Part Start =================================== */
+#fun_fact{
+    background: #252C6D;
+    padding: 115px 0;
+    .fact_content{
+        display: flex;
+        .icon{
+            background: #F04E4C;
+            border-radius: 10px;
+            width: 90px;
+            height: 90px;
+            text-align: center;
+            line-height: 90px;
+            i{
+                color: #fff;
+                font-size: 30px;
+            }
+        }
+        .details{
+            padding-left: 20px;
+            p{
+                @include text(25px,400,$opacity);
+            }
+            h6{
+                font-family: 'future-hv-bt';
+                @include text(45px,400,#fff);
+            }
+        }
+    }
+}
+/* ============================== Fun Fact Part End  =================================== */

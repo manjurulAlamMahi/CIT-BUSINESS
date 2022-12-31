@@ -1,0 +1,256 @@
+/* ==================  Footer Start  ================== */
+#footer{
+    background: rgba(230, 231, 232, 0.3);
+    padding-top: 100px;
+    .footer_content{
+        h4{
+            line-height: 28px;
+            @include text(20px,600,$title);
+            font-family: 'Roboto', sans-serif;
+            text-transform: capitalize;
+            padding-bottom: 30px;
+        }
+    }
+    .footer_content.footer_about,
+    .footer_content.footer_archive{
+        ul{
+            li{
+                padding-bottom: 30px;
+                a{
+                    @include text(18px,300,$text);
+                    font-family: 'Roboto', sans-serif;
+                    text-transform: capitalize;
+                    @include transition();
+                    &:hover{
+                        color: $title;
+                        font-weight: 500;
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .footer_content.footer_address{
+        ul{
+            li{
+                margin-bottom: 30px;
+                h6{
+                    line-height: 25px;
+                    @include text(18px,500,$text);
+                    font-family: 'Roboto', sans-serif;
+                    padding-bottom: 5px;
+                }
+                p{
+                    line-height: 30px;
+                    @include text(18px,300,$text);
+                    font-family: 'Roboto', sans-serif;
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+    .footer_content.footer_newsletter{
+        .input-group{
+            input{
+                background: none;
+                border: none;
+                border-bottom: 2px solid #4978BC;
+                border-radius: 0;
+                font-size: 16px;
+                color: $text;
+                font-weight: 400;
+                &:focus{
+                    box-shadow: none;
+                }
+                margin-right: 20px;
+            }
+            button{
+                width: 155px;
+                height: 64px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                font-family: 'future-bk-bt';
+                color: #fff;
+                background: $title;
+                border: none;
+                z-index: 1;
+                &:focus{
+                    box-shadow: none;
+                }
+                position: relative;
+                &::after{
+                    position: absolute;
+                    content: '';
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 0;
+                    background: $hover;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    @include transition();
+                }
+                &::before{
+                    position: absolute;
+                    content: 'SIGN UP';
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    z-index: 2;
+                }
+                &:hover{
+                    &::after{
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        .input-checkbox{
+            margin-top: 10px;
+            input[type="checkbox"]{
+                appearance: none;
+                border: 2px solid #F04E4C;
+                width: 15px;
+                height: 15px;
+                &:checked{
+                    background: $title;
+                    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+                }
+                margin-top: 5px;
+            }
+            label{
+                display: inline;
+                p{
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #414042;
+                    display: inline;
+                }
+            }
+        }
+        .contact{
+            padding-top: 60px;
+            line-height: 28px;
+            @include text(20px,400,$opacity);
+            font-family: 'Roboto', sans-serif;
+            a{
+                line-height: 28px;
+                @include text(20px,400,$opacity);
+                font-family: 'Roboto', sans-serif;
+                &:hover{
+                    color: $hover;
+                }
+            }
+        }
+        ul{
+            padding-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            li{
+                margin-right: 15px;
+                p{
+                    line-height: 28px;
+                    @include text(20px,400,$opacity);
+                    font-family: 'Roboto', sans-serif;
+                }
+                a{
+                    font-size: 14px;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    border-radius: 50%;
+                    background: $opacity;
+                    color: #fff;
+                    @include transition();
+                    &:hover{
+                        background: $title;
+                    }
+                }
+            }
+        }
+        .mobile_device_inputs_group{
+            display: none;
+            margin-bottom: 50px;
+            input[type="text"]{
+                background: none;
+                border: none;
+                border-bottom: 2px solid #4978BC;
+                border-radius: 0;
+                font-size: 16px;
+                color: $text;
+                font-weight: 400;
+                margin-bottom: 20px;
+                &:focus{
+                    box-shadow: none;
+                }
+                margin-right: 20px;
+            }
+            input[type="checkbox"]{
+                appearance: none;
+                border: 2px solid #F04E4C;
+                width: 15px;
+                height: 15px;
+                &:checked{
+                    background: $title;
+                    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+                }
+                margin-top: 5px;
+            }
+            label{
+                display: inline;
+                p{
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #414042;
+                    display: inline;
+                }
+            }
+            button{
+                margin: 10px 0;
+                padding: 15px 35px;
+                font-weight: 400;
+                display: block;
+                font-size: 16px;
+                line-height: 24px;
+                font-family: 'future-bk-bt';
+                color: #fff;
+                background: $title;
+                border: none;
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+        }
+        .mobile_device_contact{
+            line-height: 28px;
+            @include text(20px,400,$opacity);
+            font-family: 'Roboto', sans-serif;
+            a{
+                line-height: 28px;
+                @include text(20px,400,$opacity);
+                font-family: 'Roboto', sans-serif;
+                &:hover{
+                    color: $hover;
+                }
+            }
+        }
+    }
+    .copy_right{
+        padding: 40px 0;
+        p{
+            @include text(14px,300,$text);
+        }
+    }
+}
+
+
+
+
+
+
+/* ==================  Footer Part End  ================== */

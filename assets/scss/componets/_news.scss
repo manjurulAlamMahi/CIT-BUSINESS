@@ -1,0 +1,57 @@
+/* ============================== News And Events Part Start =================================== */
+#news{
+    padding: 120px 0;
+    .news_img{
+        position: relative;
+        .ovrly{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                width: 97px;
+                height: 97px;
+                background: rgba(73, 120, 188, 0.7);
+                border: 2px solid #FFFFFF;
+                backdrop-filter: blur(5px);
+                border-radius: 60px;
+                text-align: center;
+                line-height: 97px;
+                transform: scale(0);
+                @include transition();
+                i{
+                    color: #fff;
+                    font-size: 30px;
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+        &:hover{
+            .ovrly{
+                a{
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+    .news_titles{
+        padding-top: 40px;
+        p{
+            @include text(18px,400,$title);
+            line-height: 25px;
+            padding-bottom: 10px;
+        }
+        h6{
+            font-family: 'future-hv-bt';
+            @include text(30px,400,$opacity);
+            line-height: 42px;
+            text-transform: uppercase;
+            padding-right: 15px;
+        }
+    }
+}
+/* ============================== News And Events Part End  =================================== */
